@@ -7,4 +7,5 @@ Pod::Spec.new do |spec|
     spec.source = {
         :git => 'git@github.com:nkukushkin/CommonCryptoModule.git'
     }
+    spec.source_files = 'CommonCryptoModule/*.swift'
 end

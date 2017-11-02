@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
     spec.authors = { 'Nikita Kukushkin' => 'nk-developer@ya.ru' }
     spec.summary = 'Module wrapper for CommonCrypto that is importable in Swift.'
     spec.source = {
-        :git => 'git@github.com:nkukushkin/CommonCryptoModule.git',
+        :git => 'https://github.com/nkukushkin/CommonCryptoModule.git',
         :tag => '1.0'
     }
     spec.pod_target_xcconfig = { 

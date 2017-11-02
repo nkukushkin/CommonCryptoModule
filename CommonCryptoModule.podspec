@@ -10,6 +10,6 @@ Pod::Spec.new do |spec|
     spec.pod_target_xcconfig = { 
     	'SWIFT_INCLUDE_PATHS' => '$(SRCROOT)/CommonCryptoModule/CommonCryptoModule/CommonCryptoBridge' 
     }
-    spec.source_files = 'CommonCryptoModule/*.{h,swift}', 'CommonCryptoModule/CommonCryptoBridge/*.h'
-    spec.resources = 'CommonCryptoModule/CommonCryptoBridge/.modulemap'
+    spec.source_files = 'CommonCryptoModule/*.{h,swift}'
+    spec.resources = 'CommonCryptoModule/CommonCryptoBridge/*.{h,modulemap}'
 end

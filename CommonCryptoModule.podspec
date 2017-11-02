@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
     spec.summary = 'Module wrapper for CommonCrypto that is importable in Swift.'
     spec.license = 'MIT'
 
-    spec.version = '1.0'
+    spec.version = '1.0.1'
     spec.source = {
         :git => 'https://github.com/nkukushkin/CommonCryptoModule.git',
         :tag => spec.version

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name = 'CommonCryptoModule'
-    spec.version = '0.1'
+    spec.version = '1.0'
     spec.homepage = 'https://github.com/nkukushkin/CommonCryptoModule'
     spec.authors = { 'Nikita Kukushkin' => 'nk-developer@ya.ru' }
     spec.summary = 'Module wrapper for CommonCrypto that is importable in Swift.'

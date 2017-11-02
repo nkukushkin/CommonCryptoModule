@@ -7,6 +7,6 @@ Pod::Spec.new do |spec|
     spec.source = {
         :git => 'git@github.com:nkukushkin/CommonCryptoModule.git'
     }
-    spec.compiler_flags = 'SWIFT_INCLUDE_PATHS', '$(PROJECT_DIR)/CommonCryptoModule/CommonCryptoBridge'
+    spec.pod_target_xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(TARGET_DIR)/CommonCryptoBridge' }
     spec.source_files = 'CommonCryptoModule/*.h', 'CommonCryptoModule/*.swift', 'CommonCryptoModule/CommonCryptoBridge/*.h', 'CommonCryptoModule/CommonCryptoBridge/*.modulemap'
 end

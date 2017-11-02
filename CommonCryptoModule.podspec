@@ -13,4 +13,5 @@ Pod::Spec.new do |spec|
     }
     spec.source_files = 'CommonCryptoModule/*.{h,swift}'
     spec.resources = 'CommonCryptoModule/CommonCryptoBridge/*.{h,modulemap}'
+    spec.ios.deployment_target = '9.0'
 end

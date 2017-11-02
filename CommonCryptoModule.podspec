@@ -7,5 +7,5 @@ Pod::Spec.new do |spec|
     spec.source = {
         :git => 'git@github.com:nkukushkin/CommonCryptoModule.git'
     }
-    spec.source_files = 'CommonCryptoModule/*.h, CommonCryptoModule/*.swift, CommonCryptoModule/CommonCryptoBridge/*.h, CommonCryptoModule/CommonCryptoBridge/*.modulemap'
+    spec.source_files = 'CommonCryptoModule/*.h', 'CommonCryptoModule/*.swift', 'CommonCryptoModule/CommonCryptoBridge/*.h', 'CommonCryptoModule/CommonCryptoBridge/*.modulemap'
 end

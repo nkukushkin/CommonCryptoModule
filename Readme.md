@@ -21,5 +21,13 @@ extension Data {
         return result
     }
 }
+```
+
+### Installation
+
+Intallable manually or via Cocoapods:
+
+```ruby
+pod 'CommonCryptoModule', '~> 1.0.1'
 
 ```

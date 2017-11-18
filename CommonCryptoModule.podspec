@@ -13,6 +13,7 @@ Pod::Spec.new do |spec|
     spec.homepage = 'https://github.com/nkukushkin/CommonCryptoModule'
     spec.social_media_url = 'http://twitter.com/nkukushkin'
 
+    spec.osx.deployment_target = '10.11'
     spec.ios.deployment_target = '9.0'
     spec.pod_target_xcconfig = { 
     	'SWIFT_INCLUDE_PATHS' => '$(SRCROOT)/CommonCryptoModule/CommonCryptoModule/CommonCryptoBridge' 

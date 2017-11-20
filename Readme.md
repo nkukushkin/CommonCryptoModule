@@ -28,6 +28,6 @@ extension Data {
 Intallable manually or via Cocoapods:
 
 ```ruby
-pod 'CommonCryptoModule', '~> 1.0.1'
+pod 'CommonCryptoModule', '~> 1.0.2'
 
 ```

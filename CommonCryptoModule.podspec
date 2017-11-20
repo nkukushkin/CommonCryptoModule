@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
     spec.summary = 'Module wrapper for CommonCrypto that is importable in Swift.'
     spec.license = 'MIT'
 
-    spec.version = '1.0.1'
+    spec.version = '1.0.2'
     spec.source = {
         :git => 'https://github.com/nkukushkin/CommonCryptoModule.git',
         :tag => spec.version
@@ -14,6 +14,10 @@ Pod::Spec.new do |spec|
     spec.social_media_url = 'http://twitter.com/nkukushkin'
 
     spec.ios.deployment_target = '9.0'
+  	spec.osx.deployment_target = '10.9'
+  	spec.tvos.deployment_target = '9.0'
+  	spec.watchos.deployment_target = '4.0'
+
     spec.pod_target_xcconfig = { 
     	'SWIFT_INCLUDE_PATHS' => '$(SRCROOT)/CommonCryptoModule/CommonCryptoModule/CommonCryptoBridge' 
     }

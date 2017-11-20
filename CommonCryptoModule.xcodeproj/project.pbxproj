@@ -9,17 +9,50 @@
 /* Begin PBXBuildFile section */
 		831709541FAB663200D42715 /* CommonCryptoModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 831709521FAB663200D42715 /* CommonCryptoModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8317095B1FAB664000D42715 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8317095A1FAB664000D42715 /* Empty.swift */; };
+		83FD79701FC325E800174F51 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8317095A1FAB664000D42715 /* Empty.swift */; };
+		83FD79731FC325E800174F51 /* CommonCryptoModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 831709521FAB663200D42715 /* CommonCryptoModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83FD79981FC32B1A00174F51 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8317095A1FAB664000D42715 /* Empty.swift */; };
+		83FD799B1FC32B1A00174F51 /* CommonCryptoModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 831709521FAB663200D42715 /* CommonCryptoModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83FD79A41FC32B6500174F51 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8317095A1FAB664000D42715 /* Empty.swift */; };
+		83FD79A71FC32B6500174F51 /* CommonCryptoModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 831709521FAB663200D42715 /* CommonCryptoModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8317094F1FAB663200D42715 /* CommonCryptoModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCryptoModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		831709521FAB663200D42715 /* CommonCryptoModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonCryptoModule.h; sourceTree = "<group>"; };
-		831709531FAB663200D42715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831709531FAB663200D42715 /* CommonCryptoModule-iOS-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CommonCryptoModule-iOS-info.plist"; sourceTree = "<group>"; };
 		8317095A1FAB664000D42715 /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
+		83FD79781FC325E800174F51 /* CommonCryptoModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCryptoModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83FD79941FC3278000174F51 /* CommonCryptoModule-macOS-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CommonCryptoModule-macOS-info.plist"; sourceTree = "<group>"; };
+		83FD79A01FC32B1A00174F51 /* CommonCryptoModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCryptoModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83FD79A11FC32B1A00174F51 /* CommonCryptoModule-tvOS-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CommonCryptoModule-tvOS-info.plist"; path = "/Users/nikitakukushkin/Developer/Wheely/CommonCryptoModule/CommonCryptoModule/Other/CommonCryptoModule-tvOS-info.plist"; sourceTree = "<absolute>"; };
+		83FD79AC1FC32B6500174F51 /* CommonCryptoModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCryptoModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83FD79AD1FC32B6500174F51 /* CommonCryptoModule-watchOS-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CommonCryptoModule-watchOS-info.plist"; path = "/Users/nikitakukushkin/Developer/Wheely/CommonCryptoModule/CommonCryptoModule/Other/CommonCryptoModule-watchOS-info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8317094B1FAB663200D42715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD79711FC325E800174F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD79991FC32B1A00174F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD79A51FC32B6500174F51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				8317094F1FAB663200D42715 /* CommonCryptoModule.framework */,
+				83FD79781FC325E800174F51 /* CommonCryptoModule.framework */,
+				83FD79A01FC32B1A00174F51 /* CommonCryptoModule.framework */,
+				83FD79AC1FC32B6500174F51 /* CommonCryptoModule.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -50,9 +86,20 @@
 			children = (
 				831709521FAB663200D42715 /* CommonCryptoModule.h */,
 				8317095A1FAB664000D42715 /* Empty.swift */,
-				831709531FAB663200D42715 /* Info.plist */,
+				83FD79921FC3275800174F51 /* Other */,
 			);
 			path = CommonCryptoModule;
+			sourceTree = "<group>";
+		};
+		83FD79921FC3275800174F51 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				831709531FAB663200D42715 /* CommonCryptoModule-iOS-info.plist */,
+				83FD79941FC3278000174F51 /* CommonCryptoModule-macOS-info.plist */,
+				83FD79A11FC32B1A00174F51 /* CommonCryptoModule-tvOS-info.plist */,
+				83FD79AD1FC32B6500174F51 /* CommonCryptoModule-watchOS-info.plist */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -66,12 +113,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		83FD79721FC325E800174F51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FD79731FC325E800174F51 /* CommonCryptoModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD799A1FC32B1A00174F51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FD799B1FC32B1A00174F51 /* CommonCryptoModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD79A61FC32B6500174F51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FD79A71FC32B6500174F51 /* CommonCryptoModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8317094E1FAB663200D42715 /* CommonCryptoModule */ = {
+		8317094E1FAB663200D42715 /* CommonCryptoModule iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 831709571FAB663200D42715 /* Build configuration list for PBXNativeTarget "CommonCryptoModule" */;
+			buildConfigurationList = 831709571FAB663200D42715 /* Build configuration list for PBXNativeTarget "CommonCryptoModule iOS" */;
 			buildPhases = (
 				8317094A1FAB663200D42715 /* Sources */,
 				8317094B1FAB663200D42715 /* Frameworks */,
@@ -82,9 +153,63 @@
 			);
 			dependencies = (
 			);
-			name = CommonCryptoModule;
+			name = "CommonCryptoModule iOS";
 			productName = CommonCryptoModule;
 			productReference = 8317094F1FAB663200D42715 /* CommonCryptoModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83FD796E1FC325E800174F51 /* CommonCryptoModule macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83FD79751FC325E800174F51 /* Build configuration list for PBXNativeTarget "CommonCryptoModule macOS" */;
+			buildPhases = (
+				83FD796F1FC325E800174F51 /* Sources */,
+				83FD79711FC325E800174F51 /* Frameworks */,
+				83FD79721FC325E800174F51 /* Headers */,
+				83FD79741FC325E800174F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CommonCryptoModule macOS";
+			productName = CommonCryptoModule;
+			productReference = 83FD79781FC325E800174F51 /* CommonCryptoModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83FD79961FC32B1A00174F51 /* CommonCryptoModule tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83FD799D1FC32B1A00174F51 /* Build configuration list for PBXNativeTarget "CommonCryptoModule tvOS" */;
+			buildPhases = (
+				83FD79971FC32B1A00174F51 /* Sources */,
+				83FD79991FC32B1A00174F51 /* Frameworks */,
+				83FD799A1FC32B1A00174F51 /* Headers */,
+				83FD799C1FC32B1A00174F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CommonCryptoModule tvOS";
+			productName = CommonCryptoModule;
+			productReference = 83FD79A01FC32B1A00174F51 /* CommonCryptoModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83FD79A21FC32B6500174F51 /* CommonCryptoModule watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83FD79A91FC32B6500174F51 /* Build configuration list for PBXNativeTarget "CommonCryptoModule watchOS" */;
+			buildPhases = (
+				83FD79A31FC32B6500174F51 /* Sources */,
+				83FD79A51FC32B6500174F51 /* Frameworks */,
+				83FD79A61FC32B6500174F51 /* Headers */,
+				83FD79A81FC32B6500174F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CommonCryptoModule watchOS";
+			productName = CommonCryptoModule;
+			productReference = 83FD79AC1FC32B6500174F51 /* CommonCryptoModule.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -101,6 +226,15 @@
 						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
+					83FD796E1FC325E800174F51 = {
+						ProvisioningStyle = Automatic;
+					};
+					83FD79961FC32B1A00174F51 = {
+						ProvisioningStyle = Automatic;
+					};
+					83FD79A21FC32B6500174F51 = {
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 831709491FAB663200D42715 /* Build configuration list for PBXProject "CommonCryptoModule" */;
@@ -115,13 +249,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8317094E1FAB663200D42715 /* CommonCryptoModule */,
+				8317094E1FAB663200D42715 /* CommonCryptoModule iOS */,
+				83FD796E1FC325E800174F51 /* CommonCryptoModule macOS */,
+				83FD79961FC32B1A00174F51 /* CommonCryptoModule tvOS */,
+				83FD79A21FC32B6500174F51 /* CommonCryptoModule watchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8317094D1FAB663200D42715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD79741FC325E800174F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD799C1FC32B1A00174F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD79A81FC32B6500174F51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -136,6 +294,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				8317095B1FAB664000D42715 /* Empty.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD796F1FC325E800174F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FD79701FC325E800174F51 /* Empty.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD79971FC32B1A00174F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FD79981FC32B1A00174F51 /* Empty.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FD79A31FC32B6500174F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FD79A41FC32B6500174F51 /* Empty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,13 +377,13 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.13;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Debug;
 		};
@@ -251,13 +433,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx10.13;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Release;
 		};
@@ -271,11 +453,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CommonCryptoModule/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CommonCryptoModule/Other/CommonCryptoModule-iOS-info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nkukushkin.oss.CommonCryptoModule;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = CommonCryptoModule;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/CommonCryptoModule/CommonCryptoBridge";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -294,11 +476,152 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CommonCryptoModule/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CommonCryptoModule/Other/CommonCryptoModule-iOS-info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nkukushkin.oss.CommonCryptoModule;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = CommonCryptoModule;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/CommonCryptoModule/CommonCryptoBridge";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83FD79761FC325E800174F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/CommonCryptoModule/Other/CommonCryptoModule-macOS-info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nkukushkin.oss.CommonCryptoModule;
+				PRODUCT_NAME = CommonCryptoModule;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/CommonCryptoModule/CommonCryptoBridge";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83FD79771FC325E800174F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/CommonCryptoModule/Other/CommonCryptoModule-macOS-info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nkukushkin.oss.CommonCryptoModule;
+				PRODUCT_NAME = CommonCryptoModule;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/CommonCryptoModule/CommonCryptoBridge";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83FD799E1FC32B1A00174F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/CommonCryptoModule/Other/CommonCryptoModule-tvOS-info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nkukushkin.oss.CommonCryptoModule;
+				PRODUCT_NAME = CommonCryptoModule;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/CommonCryptoModule/CommonCryptoBridge";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83FD799F1FC32B1A00174F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/CommonCryptoModule/Other/CommonCryptoModule-tvOS-info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nkukushkin.oss.CommonCryptoModule;
+				PRODUCT_NAME = CommonCryptoModule;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/CommonCryptoModule/CommonCryptoBridge";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83FD79AA1FC32B6500174F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/CommonCryptoModule/Other/CommonCryptoModule-watchOS-info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nkukushkin.oss.CommonCryptoModule;
+				PRODUCT_NAME = CommonCryptoModule;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/CommonCryptoModule/CommonCryptoBridge";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83FD79AB1FC32B6500174F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/CommonCryptoModule/Other/CommonCryptoModule-watchOS-info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nkukushkin.oss.CommonCryptoModule;
+				PRODUCT_NAME = CommonCryptoModule;
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/CommonCryptoModule/CommonCryptoBridge";
 				SWIFT_VERSION = 4.0;
@@ -318,11 +641,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		831709571FAB663200D42715 /* Build configuration list for PBXNativeTarget "CommonCryptoModule" */ = {
+		831709571FAB663200D42715 /* Build configuration list for PBXNativeTarget "CommonCryptoModule iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				831709581FAB663200D42715 /* Debug */,
 				831709591FAB663200D42715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83FD79751FC325E800174F51 /* Build configuration list for PBXNativeTarget "CommonCryptoModule macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83FD79761FC325E800174F51 /* Debug */,
+				83FD79771FC325E800174F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83FD799D1FC32B1A00174F51 /* Build configuration list for PBXNativeTarget "CommonCryptoModule tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83FD799E1FC32B1A00174F51 /* Debug */,
+				83FD799F1FC32B1A00174F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83FD79A91FC32B6500174F51 /* Build configuration list for PBXNativeTarget "CommonCryptoModule watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83FD79AA1FC32B6500174F51 /* Debug */,
+				83FD79AB1FC32B6500174F51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

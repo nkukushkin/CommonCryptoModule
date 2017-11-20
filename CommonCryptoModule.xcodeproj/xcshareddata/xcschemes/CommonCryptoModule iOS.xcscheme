@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8317094E1FAB663200D42715"
                BuildableName = "CommonCryptoModule.framework"
-               BlueprintName = "CommonCryptoModule"
+               BlueprintName = "CommonCryptoModule iOS"
                ReferencedContainer = "container:CommonCryptoModule.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -49,7 +49,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8317094E1FAB663200D42715"
             BuildableName = "CommonCryptoModule.framework"
-            BlueprintName = "CommonCryptoModule"
+            BlueprintName = "CommonCryptoModule iOS"
             ReferencedContainer = "container:CommonCryptoModule.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -67,7 +67,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8317094E1FAB663200D42715"
             BuildableName = "CommonCryptoModule.framework"
-            BlueprintName = "CommonCryptoModule"
+            BlueprintName = "CommonCryptoModule iOS"
             ReferencedContainer = "container:CommonCryptoModule.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

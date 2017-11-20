@@ -13,6 +13,7 @@ Pod::Spec.new do |spec|
     spec.homepage = 'https://github.com/nkukushkin/CommonCryptoModule'
     spec.social_media_url = 'http://twitter.com/nkukushkin'
 
+    spec.osx.deployment_target = '10.11'
     spec.ios.deployment_target = '9.0'
   	spec.osx.deployment_target = '10.9'
   	spec.tvos.deployment_target = '9.0'

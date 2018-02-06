@@ -1,5 +1,7 @@
 ## CommonCrypto, wrapped in module
 
+**WARNING: iTunesConnect may [reject](https://stackoverflow.com/a/48481667/1607485) apps that are using this module.**
+
 It is currently impossible to import CommonCrypto headers from Swift because they aren't modular. You can find several solutions to this issue on [StackOverflow](http://stackoverflow.com/a/29189873/1607485), however they require some effort to implement. 
 
 This repo's goal is to provide a modular wrapper to the CommonCrypto, so that it can be imported to Swift without any additional work.
